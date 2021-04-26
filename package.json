@@ -1,0 +1,10 @@
+{
+  "name": "gymcak",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "is-not-odd": "^1.0.4"
+  }
+}
