@@ -4,7 +4,7 @@ const HelloPage = ({title}) => {
     return <div>Můj title je {title}</div>;
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
     const res = await axios.get(`https://jsonplaceholder.typicode.com/todos/1`)
     const data = res.data;
 
